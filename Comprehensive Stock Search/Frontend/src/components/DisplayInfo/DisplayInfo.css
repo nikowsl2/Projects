@@ -1,0 +1,62 @@
+.company-peers-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.company-peers-list li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.detail-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-container {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.detail-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 350px;
+}
+
+.chart-container {
+    width: 50%;
+    min-width: 350px;
+    padding-bottom: 60px;
+}
+
+.detail-info {
+    height: 70%;
+    text-align: center;
+}
+
+.detail-info div {
+    padding: 10px;
+}
+
+.detail-price {
+    height: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30%;
+}
+
+.detail-price div {
+    padding-bottom: 10px;
+}
+
+.infoTitle {
+    font-size: x-large;
+    text-decoration: underline;
+    padding-top: 15px;
+}

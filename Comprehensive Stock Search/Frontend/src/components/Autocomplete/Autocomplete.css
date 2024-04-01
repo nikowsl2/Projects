@@ -1,0 +1,209 @@
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 201, 201);
+    border-radius: 4px;
+    text-align: center;
+    padding-right: 40px;
+    border: 1px solid rgb(219, 149, 149);
+}
+
+.autocomplete-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchSpace {
+    width: 100%;
+    position: relative;
+}
+
+.errorCloseButton {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+.suggestions {
+    overflow-y: auto;
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    height: auto;
+    max-height: 200px;
+    min-height: 50px;
+    width: 70%;
+    min-width: 200px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    margin: 10px 0;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suggestions li {
+    padding: 10px;
+    text-align: left;
+    background-color: #fdfdfd;
+}
+
+.suggestions li:hover {
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100px;
+}
+
+.searchBox {
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.searchTitle {
+    font-size: 30px;
+    height: auto;
+}
+
+.searchTitle,
+.Autocomplete {
+    display: block;
+    min-width: 100px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 42%;
+    padding-top: 10px;
+}
+
+.autocomplete {
+    padding-top: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    width: 40% !important;
+    border: 2px solid blue;
+    border-radius: 20px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+}
+
+.inputBox {
+    border: none;
+    padding: 0px 50px 0px 8px;
+    width: 90%;
+    max-width: 500px;
+    outline: none;
+    min-width: 200px;
+    position: relative;
+}
+
+.clearButton {
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/images/x.svg');
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.submitButton,
+.clearButton {
+    position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.submitButton {
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/images/search-solid.svg');
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.activeSuggestion {
+    background-color: #e9e9e9;
+    color: #333;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+
+
+.loader2 {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    margin: 40px auto;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+
+    /*from ChatGPT */
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

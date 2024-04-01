@@ -1,0 +1,279 @@
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    min-width: 390px;
+}
+
+.messageContainer {
+    padding-top: 30px;
+}
+
+.infotableBox {
+    padding-top: 20px;
+}
+
+.info-column {
+    flex-grow: 1;
+}
+
+.info-center {
+    min-width: 30%;
+}
+
+.infoLogo {
+    padding-bottom: 20px;
+}
+
+.info-column>div {
+    padding-bottom: 3px;
+}
+
+.info-center>span {
+    padding-bottom: 10px;
+}
+
+.toggle-watchlist-button {
+    border: none;
+    padding-left: 10px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.toggle-watchlist-button.in-watchlist {
+    background-color: white;
+    color: rgb(255, 221, 0);
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.watchlist-message {
+    width: 60%;
+    min-width: 340px;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    position: relative;
+    background-color: rgb(233, 180, 180);
+    border: 1px solid rgb(198, 53, 31);
+}
+
+.WatchListButton {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    top: 1px;
+}
+
+.watchlist-message.in-watchlist {
+    width: 60%;
+    height: 10%;
+    min-width: 340px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: rgb(184, 220, 185);
+    border: 1px solid rgb(73, 184, 73);
+}
+
+.BuyTitle {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+}
+
+.Buy-divider {
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.CurrentPrice {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.Balance {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.BuyForm {
+    text-align: left;
+}
+
+.BuyBox {
+    border-radius: 5px;
+    padding: 5px;
+    width: 60%;
+    border: 1px solid rgb(0, 115, 255);
+}
+
+.errorMsg {
+    padding: 10px;
+    color: red;
+    font-weight: 600;
+}
+
+.AlertMessage {
+    width: 60%;
+    min-width: 340px;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    position: relative;
+}
+
+.AlertBuy {
+    background-color: rgb(184, 220, 185);
+    border: 1px solid rgb(73, 184, 73);
+}
+
+.AlertSell {
+    background-color: rgb(233, 180, 180);
+    border: 1px solid rgb(198, 53, 31);
+}
+
+
+
+.AlertButton {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    top: 1px;
+}
+
+
+.errorMsg2 {
+    padding: 10px;
+    color: red;
+    font-weight: 600;
+}
+
+.TotalCost {
+    text-align: left;
+}
+
+.BuyStock {
+    position: relative;
+    background: rgb(3, 139, 23);
+    color: #dcdcdc;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.SellStock {
+    position: relative;
+    background: rgb(198, 0, 0);
+    color: #dcdcdc;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalBuyStock {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background: rgb(3, 139, 23);
+    color: #dcdcdc;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalBuyStockDisabled {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background: rgb(130, 185, 138);
+    color: #dcdcdc;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalSellStock {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background: rgb(198, 0, 0);
+    color: #dcdcdc;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalSellStockDisabled {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background: rgb(198, 120, 120);
+    color: #dcdcdc;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TradeButton {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}

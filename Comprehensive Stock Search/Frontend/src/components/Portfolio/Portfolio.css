@@ -1,0 +1,159 @@
+.PortfolioBox {
+    width: 70%;
+    min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.PortfolioTitle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.Wallet {
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.stock-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.PortfolioTradeButton {
+    width: 100%;
+    display: flex;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.TableRow {
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.stock-table th,
+.stock-table td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+.stock-table td {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.custom-row-padding .row {
+    padding-left: 12px;
+    padding-right: 12px;
+    /* Adjust as needed */
+}
+
+.row-gap {
+    margin-bottom: 10px;
+}
+
+.stock-table th {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+.PortfolioIntro {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+}
+
+.stock-table tfoot {
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+    height: 40px;
+
+}
+
+.errorMsg {
+    padding: 10px;
+    color: red;
+    font-weight: 600;
+}
+
+.errorMsg2 {
+    padding: 10px;
+    color: red;
+    font-weight: 600;
+}
+
+.PortfolioBuyStock {
+    position: relative;
+    background: rgb(16, 65, 187);
+    color: #dcdcdc;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.PortfolioSellStock {
+    position: relative;
+    background: rgb(198, 0, 0);
+    color: #dcdcdc;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalAlertMessage {
+    width: 90%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ModalAlertBuy {
+    background-color: rgb(184, 220, 185);
+    border: 1px solid rgb(73, 184, 73);
+}
+
+.ModalAlertSell {
+    background-color: rgb(233, 180, 180);
+    border: 1px solid rgb(198, 53, 31);
+}
+
+.ModalAlertButton {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 5px;
+    font-size: 20px;
+    bottom: 5%;
+}
