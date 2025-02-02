@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trend Chart</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+<div id="chart-container" style="width:100%; height:400px;"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const categories = %%CATEGORIES_JSON%%;
+        const seriesData = %%SERIES_JSON%%;
+
+        Highcharts.chart('chart-container', {
+            chart: {
+                type: 'column',
+                marginBottom: 100,
+                backgroundColor: '#f5f5f5',
+            },
+            title: {
+                text: 'Recommendation Trends',
+                align: 'center'
+            },
+            xAxis: {
+                categories: categories,
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '# Analysis'
+                },
+                stackLabels: {
+                    enabled: true,
+                    style: {
+                        fontWeight: 'bold',
+                        color: ( // theme
+                            Highcharts.defaultOptions.title.style &&
+                            Highcharts.defaultOptions.title.style.color
+                        ) || 'gray'
+                    }
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    stacking: 'normal',
+                    dataLabels: {
+                        enabled: true
+                    }
+                }
+            },
+            series: seriesData
+        });
+    });
+</script>
+</body>
+</html>
