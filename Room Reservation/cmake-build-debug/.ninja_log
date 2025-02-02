@@ -1,0 +1,9 @@
+# ninja log v5
+438	481	1718577607788394843	final_project	322daace622c40dd
+7	447	1718572380973902199	CMakeFiles/final_project.dir/serverm.cpp.o	1a33cb323896e2c1
+7	447	1718573035207245066	CMakeFiles/final_project.dir/serverEEB.cpp.o	38d8bc5197fb6012
+1	59	1718579099889039410	build.ninja	6bb70ebee18bd1c4
+7	438	1718577607742310265	CMakeFiles/final_project.dir/serverM.cpp.o	cb34ab5f1047ff96
+7	419	1718577455753927851	CMakeFiles/final_project.dir/serverC.cpp.o	140df675e401eb95
+1	144	1718561488508359347	CMakeFiles/final_project.dir/client.cpp.o	9c619fee16004372
+8	447	1718573035207256024	CMakeFiles/final_project.dir/serverRTH.cpp.o	2139c79886273e06

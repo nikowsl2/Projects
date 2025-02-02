@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "__config": "cpp",
+        "istream": "cpp",
+        "locale": "cpp",
+        "string": "c",
+        "globals.h": "c",
+        "__threading_support": "c",
+        "__locale": "c",
+        "mmobj.h": "c",
+        "page.h": "c",
+        "errno.h": "c"
+    }
+}
